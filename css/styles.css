@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+.main {
+     
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.text{
+    padding-top: 170px;
+    padding-bottom: 170px;
+    
+}
+.time{
+font-weight: 800;
+font-size: 30px;
+line-height: 1.27;
+text-transform: uppercase;
+color: #FBB731;
+margin-bottom: 10px;
+
+}
+.hero-title{
+max-width: 580px;
+font-weight: 800;
+font-size: 120px;
+line-height: 1.17;
+text-transform: uppercase;
+color: #FAF9F9;
+margin-bottom: 39px;
+}
+.description{
+    max-width: 520px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.42;
+    color: #DEDEDE;
+    margin-bottom: 42px;
+}
+.order-btn{
+    display: block;
+    width: 80px;
+    height: 18px;
+    background: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 800;
+    font-size: 14px;
+line-height: 1.28;
+text-align: center;
+text-transform: uppercase;
+color: #1E2F40;
+
+}
+.sale-container{
+    padding-top:185px ;
+    padding-bottom: 186px;
+}
+.visual{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg{
+width: 432px;
+height: 100%;
+background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+.icon-burger{
+    position: absolute;
+    right: -168px;
+}
+.banners{
+    background-color:  #E5E5E5;;
+}
+.banner1{
+    margin-right: 16px;
+    width: 580px;
+    height: 380px;
+    background-image:url(/images/img-banners/banner1.png) ;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding-top: 121px;
+    padding-left: 50px;
+}
+.sale{
+    
+    width: 65px;
+    height: 18px;
+ font-weight: 900;
+font-size: 14px;
+line-height: 1.28;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #F37335;
+border-radius: 14px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 18px;
+padding-right: 18px;
+margin-bottom: 8px;
+}
+.sale-money{
+display: block;
+font-weight: 900;
+font-size: 60px;
+line-height: 1.26;
+text-transform: uppercase;
+
+
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+.sale-description{
+    
+    width: 392px;
+    font-family: 'Lato', sans-serif;
+
+font-weight: 400;
+font-size: 15px;
+line-height: 1.6;
+color: #FAF9F9;
+}
+.banner2{
+   
+    width: 580px;
+    height: 380px;
+    background-image:url(/images/img-banners/banner2.png) ;
+    background-repeat: no-repeat;}
+
+.no-money { 
+    padding-left: 50px;
+    padding-top: 102px;
+font-weight: 800;
+font-size: 44px;
+line-height: 1.22;
+color: #FFFFFF;
+margin-bottom: 10px;
+    }
+.no-money-description{
+    padding-left: 50px;
+    width: 299px;
+    font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.6;
+color: #FAF9F9;  
+margin-bottom: 20px; 
+ }
+
+.btn{
+    margin-left: 50px;
+}
+.footer{
+    background-color: #1E2F40;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+   
+}
+ul,li{
+    list-style: none;
+}
+.icon-footer{
+    padding-top: 117px;
+    padding-bottom: 230px;
+    margin-right: 136px;
+}
+.footer-links{
+    padding-top: 111px;
+font-weight: 800;
+font-size: 20px;
+line-height: 1.9;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 12px;
+}
+.links-link{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #DEDEDE;}
+
+
+.links-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+.footer-contact{
+    margin-right: 147px;
+}
+.footer-address{
+    font-family: 'Lato', sans-serif;
+text-decoration: none;
+font-weight: 800;
+font-size: 15px;
+line-height: 1.6;
+color: #FAF9F9;
+margin-bottom: 12px;
+}
+.footer-time-item{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #DEDEDE;
+    margin-bottom: 2px;
+}
+.address-link{
+font-weight: 800;
+font-size: 20px;
+line-height: 1.9;
+text-transform: uppercase;
+color: #FBB731;
+text-decoration: none;
+}
+.address{
+    padding-top: 113px;
+}
+.inform{
+    margin-right: 142px;
+}
