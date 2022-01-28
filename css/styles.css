@@ -97,7 +97,7 @@ background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 10
     width: 580px;
     height: 380px;
     background-image:url(../images/img-banners/banner1.png) ;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 .banner-text{
     padding-top: 121px;
