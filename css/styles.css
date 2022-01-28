@@ -147,7 +147,8 @@ color: #FAF9F9;
     width: 580px;
     height: 380px;
     background-image:url(../images/img-banners/banner2.png) ;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+}
 
 .no-money { 
     padding-left: 50px;
