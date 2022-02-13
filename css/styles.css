@@ -16,28 +16,34 @@ html{
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     
 }
+
 .text{
     padding-top: 170px;
     padding-bottom: 170px;
+    max-width: 580px;
     
 }
 .time{
-font-weight: 800;
+font-weight: 700;
 font-size: 30px;
-line-height: 1.27;
+
 text-transform: uppercase;
 color: #FBB731;
 margin-bottom: 10px;
 
 }
+
+
 .hero-title{
-max-width: 580px;
+
 font-weight: 800;
 font-size: 120px;
 line-height: 1.17;
 text-transform: uppercase;
+ 
 color: #FAF9F9;
 margin-bottom: 39px;
 }
@@ -69,10 +75,7 @@ text-transform: uppercase;
 color: #1E2F40;
 
 }
-.sale-container{
-    padding-top:185px ;
-    padding-bottom: 186px;
-}
+
 .visual{
     position: relative;
     flex-grow: 1;
@@ -90,89 +93,52 @@ background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 10
     right: -168px;
 }
 .banners{
-    background-color:  #E5E5E5;;
-}
-.banner1{
-    margin-right: 16px;
-    width: 580px;
-    height: 380px;
-    background-image:url(../images/img-banners/banner1.png) ;
-    background-repeat:no-repeat;
-}
-.banner-text{
-    padding-top: 121px;
-    padding-left: 50px;
-}
-.sale{
-    
-    width: 65px;
-    height: 18px;
- font-weight: 900;
-font-size: 14px;
-line-height: 1.28;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-background: #F37335;
-border-radius: 14px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 18px;
-padding-right: 18px;
-margin-bottom: 8px;
-}
+    padding-top: 186px;
+    padding-bottom: 185px;
+    }
+.banner1,
+.banner2{
+        
+        flex: 0 0 49%;
+       box-sizing: border-box;
+       background-position: center ;
+       background-size: cover;
+    }
+    .sale{
+        padding: 5px 18px;
+        display: inline-block;
+     font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F37335;
+    border-radius: 14px;}
 .sale-money{
-display: block;
+    
 font-weight: 900;
 font-size: 60px;
-line-height: 1.26;
 text-transform: uppercase;
-
-
 color: #FFFFFF;
-margin-bottom: 8px;
 }
-.sale-description{
-    
-    width: 392px;
-    font-family: 'Lato', sans-serif;
 
+.sale-description{
+    font-family: 'Lato', sans-serif;
+width: 392px;
 font-weight: 400;
 font-size: 15px;
 line-height: 1.6;
 color: #FAF9F9;
 }
+.banner1{
+         background-image: url(../images/img-banners/banner1.png);
+        
+         padding: 116px 50px;
+     }
 .banner2{
-   
-    width: 580px;
-    height: 380px;
-    background-image:url(../images/img-banners/banner2.png) ;
-    background-repeat: no-repeat;
-}
-
-.no-money { 
-    padding-left: 50px;
-    padding-top: 102px;
-font-weight: 800;
-font-size: 44px;
-line-height: 1.22;
-color: #FFFFFF;
-margin-bottom: 10px;
-    }
-.no-money-description{
-    padding-left: 50px;
-    width: 299px;
-    font-family: 'Lato', sans-serif;
-font-weight: 400;
-font-size: 15px;
-line-height: 1.6;
-color: #FAF9F9;  
-margin-bottom: 20px; 
- }
-
-.btn{
-    margin-left: 50px;
-}
+    background-image:url(..//images/img-banners/banner2.png) ;
+    padding: 102px 50px; 
+     }
 .footer{
     background-color: #1E2F40;
 }
